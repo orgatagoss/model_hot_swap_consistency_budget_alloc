@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "orgatagoss-oplib_jd042"
+name = "orgatagoss-model_hot_swap_consistency_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://orgatagoss.github.io"
-Repository = "https://github.com/orgatagoss/oplib_jd042"
-Issues = "https://github.com/orgatagoss/oplib_jd042/issues"
+Repository = "https://github.com/orgatagoss/model_hot_swap_consistency_budget_alloc"
+Issues = "https://github.com/orgatagoss/model_hot_swap_consistency_budget_alloc/issues"
 
 [project.scripts]
-oplib_jd042 = "oplib_jd042:main"
+model_hot_swap_consistency_budget_alloc = "model_hot_swap_consistency_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["oplib_jd042"]
+py-modules = ["model_hot_swap_consistency_budget_alloc"]
